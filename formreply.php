@@ -2,7 +2,7 @@
 
 $word = $_GET["userWord"];
 $censoredword = $_GET["userCensored"];
-
+$newWord = str_ireplace($censoredword, "***", $word)
 ?>
 
 <!DOCTYPE html>
@@ -19,7 +19,8 @@ $censoredword = $_GET["userCensored"];
         <h1 class="text-center mt-5">PHP BADWORDS REPLY</h1>
         <div class="row">
             <div class="col">
-                <p> la parola finale compresa di censura è : <?php echo str_ireplace($censoredword, "***", $word); ?> </p>
+                <p><?php echo "il paragfrafo che hai scritto è : " . $word . " e la sua lunghezza è di : " . strlen($word); ?></p>
+                <p><?php echo "il nuovo paragrafo compreso di censura è : " . $newWord . " e la sua lunghezza è di : " . strlen($newWord) ?></p>
             </div>
         </div>
     </div>

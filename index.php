@@ -20,7 +20,7 @@
             <div class="col">
                 <form action="./formreply.php" method="GET">
                     <div>
-                  <label for="user-word" class="form-label">inserisci una parola</label>
+                  <label for="user-word" class="form-label">inserisci un paragrafo</label>
                   <input type="text" class="form-control" id="userWord" name="userWord" placeholder="ciao sono un form">
                 </div>
                 <div class="my-5">
