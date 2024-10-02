@@ -18,14 +18,14 @@
         <h1 class="text-center mt-5">PHP BADWORDS</h1>
         <div class="row">
             <div class="col">
-                <form action="">
+                <form action="./formreply.php" method="GET">
                     <div>
-                  <label for="exampleFormControlInput1" class="form-label">inserisci una parola</label>
-                  <input type="text" class="form-control" id="user-word">
+                  <label for="user-word" class="form-label">inserisci una parola</label>
+                  <input type="text" class="form-control" id="userWord" name="userWord" placeholder="ciao sono un form">
                 </div>
                 <div class="my-5">
-                  <label for="exampleFormControlInput1" class="form-label">inserisci la parola da censurare</label>
-                  <input type="text" class="form-control" id="user-censored">
+                  <label for="user-censored" class="form-label">inserisci la parola da censurare</label>
+                  <input type="text" class="form-control" id="userCensored" name="userCensored" placeholder="form">
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
                 <button type="reset" class="btn btn-danger">Reset</button>
