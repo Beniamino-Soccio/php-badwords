@@ -14,6 +14,26 @@
 
 </head>
 <body>
-    
+    <div class="container">
+        <h1 class="text-center mt-5">PHP BADWORDS</h1>
+        <div class="row">
+            <div class="col">
+                <form action="">
+                    <div>
+                  <label for="exampleFormControlInput1" class="form-label">inserisci una parola</label>
+                  <input type="text" class="form-control" id="user-word">
+                </div>
+                <div class="my-5">
+                  <label for="exampleFormControlInput1" class="form-label">inserisci la parola da censurare</label>
+                  <input type="text" class="form-control" id="user-censored">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="reset" class="btn btn-danger">Reset</button>
+                </form>
+                
+
+            </div>
+        </div>
+    </div>
 </body>
 </html>
